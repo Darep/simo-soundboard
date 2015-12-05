@@ -1,0 +1,13 @@
+<card>
+  <header>
+    <h1>Simo Soundboard</h1>
+  </header>
+
+  {{#each model as |audio|}}
+    {{play-button audio=audio}}
+  {{/each}}
+
+  <copyright>
+    <a href="http://ajk.fi/">ajk.fi</a>
+  </copyright>
+</card>

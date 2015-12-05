@@ -1,0 +1,20 @@
+// Parts of Google's Material design color palette
+// ==========================================================================
+
+// Blue Grey
+$list-blue-grey: #eceff1, #cfd8dc, #b0bec5, #90a4ae, #78909c,
+                 #607d8b, #546e7a, #455a64, #37474f, #263238;
+
+// Blue Grey
+$clr-blue-grey:     nth($list-blue-grey, 6);
+
+$clr-blue-grey-50:  nth($list-blue-grey, 1);
+$clr-blue-grey-100: nth($list-blue-grey, 2);
+$clr-blue-grey-200: nth($list-blue-grey, 3);
+$clr-blue-grey-300: nth($list-blue-grey, 4);
+$clr-blue-grey-400: nth($list-blue-grey, 5);
+$clr-blue-grey-500: nth($list-blue-grey, 6);
+$clr-blue-grey-600: nth($list-blue-grey, 7);
+$clr-blue-grey-700: nth($list-blue-grey, 8);
+$clr-blue-grey-800: nth($list-blue-grey, 9);
+$clr-blue-grey-900: nth($list-blue-grey, 10);
