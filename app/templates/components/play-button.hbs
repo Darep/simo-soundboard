@@ -1,4 +1,7 @@
 <button {{action 'play'}}>{{audio.name}}</button>
+{{#if isLoading}}
+  <span>Loading&hellip;</span>
+{{/if}}
 {{#if isPlaying}}
   <span>Playing&hellip;</span>
 {{/if}}
