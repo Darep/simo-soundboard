@@ -11,6 +11,8 @@ You will need the following things properly installed on your computer.
 * [Bower](http://bower.io/)
 * [Ember CLI](http://www.ember-cli.com/)
 * [PhantomJS](http://phantomjs.org/)
+* [Ruby](https://www.ruby-lang.org/en/)
+* [ejson](https://github.com/Shopify/ejson)
 
 ## Development
 
@@ -32,4 +34,6 @@ You will need the following things properly installed on your computer.
 
 ### Deploying
 
+* Get the ejson private key from Darep
+* `gem install ejson`
 * `ember deploy production`
