@@ -17,7 +17,7 @@ You will need the following things properly installed on your computer.
 ## Development
 
 * `git clone https://github.com/Darep/simo-soundboard.git`
-* `cd simo-soundboard
+* `cd simo-soundboard`
 * `npm i && bower i`
 * `ember server`
 * Open [http://localhost:4200](http://localhost:4200).
